@@ -92,10 +92,6 @@ export function TopRecommendations() {
                         <span className="text-xs text-muted-foreground">
                           {book.publisher}
                         </span>
-                        <span className="text-xs text-muted-foreground">·</span>
-                        <span className="text-xs text-muted-foreground">
-                          {book.year}
-                        </span>
                         {book.rating === 5 && (
                           <Badge className="bg-accent/20 text-accent-foreground text-xs">
                             ⭐ Top Rated
